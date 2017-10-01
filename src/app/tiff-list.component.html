@@ -1,0 +1,7 @@
+<ul class="tiff-list">
+  <p *ngIf="!tiffs">Loading...</p>
+  <li *ngFor="let tiff of tiffs" class="tiff" (click)="onSelect(tiff)">
+    <span class="id">{{tiff.id}}</span>
+    <span class="name">{{tiff.name}}</span>
+  </li>
+</ul>

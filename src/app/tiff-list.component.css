@@ -1,0 +1,27 @@
+.tiff-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.tiff {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #F3F3F3;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.tiff:hover { 
+  border: 1px solid #9ACBFF;
+}
+
+.id {
+  display: inline-block;
+  padding: 5px 9px 5px 9px;
+  margin-right: 10px;
+  border-radius: 50%; 
+  color: white;
+  font-size: smaller;
+  background-color: #5FAAFF;
+}
